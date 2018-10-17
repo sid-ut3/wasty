@@ -1,0 +1,127 @@
+<!--
+Groupe[4] 
+
+Version : V2.1.2
+
+Ce fichier contient le menu et la bare de navigation , il est inclu sur l'ensemble des interfaces du site.
+
+Changements : code indenté.
+-->
+
+<header class="header dark-bg">
+            <div class="toggle-nav">
+                <div class="icon-reorder tooltips" data-original-title="Toggle Navigation" data-placement="bottom"><i class="icon_menu"></i></div>
+            </div>
+
+            <!--logo start-->
+            <a href="index.php"><img src="img/logo.png" width="250px" height="55px"  ></a>
+
+            <!--  search form end -->                
+            </div>
+
+            <div class="top-nav notification-row">                
+                <!-- notificatoin dropdown start-->
+                <ul class="nav pull-right top-menu">
+						<a href="deconnexion.php"><i class="icon_key_alt"></i> Log Out</a>
+                </ul>
+                <!-- notificatoin dropdown end-->
+            </div>
+      </header>      
+      <!--header end--> 
+<!--sidebar start-->
+      <aside>
+          <div id="sidebar"  class="nav-collapse ">
+              <!-- sidebar menu start-->
+              <ul class="sidebar-menu">                
+                  
+                  <li class="sub-menu">
+                      <a href="javascript:;" class="">
+                          <i class="icon_document_alt"></i>
+                          <span>Utilisateurs</span>
+                          <span class="menu-arrow arrow_carrot-right"></span>
+                      </a>
+                      <ul class="sub">
+						  <li><a class="" href="user_add.php">Ajout</a></li> 
+						  <li><a class="" href="user_modif.php">Modification</a></li>
+						  <li><a class="" href="user_delete.php">Suppression</a></li>
+                      </ul>
+                  </li>     
+
+                  <li class="sub-menu">
+                      <a href="javascript:;" class="">
+                          <i class="icon_table"></i>
+                          <span>Ville</span>
+                          <span class="menu-arrow arrow_carrot-right"></span>
+                          
+                      </a>
+                      <ul class="sub">
+                          <li><a class="" href="quartier.php">Gestion quartiers</a></li>    
+                          <li><a class="" href="ville.php">Gestion villes</a></li> 
+                                                 
+                         
+                      </ul>
+                    
+                  </li>
+
+                 
+                   <li class="sub-menu">
+                      <a href="javascript:;" class="">
+                          <i class="icon_table"></i>
+                          <span>Catégories</span>
+                          <span class="menu-arrow arrow_carrot-right"></span>
+                          
+                      </a>
+                      <ul class="sub">
+                          <li><a class="" href="categories.php">Gestion catégories</a></li>                          
+                          <li><a class="" href="sous_categ.php">Gestion sous catégories</a></li>
+                          
+                      </ul>
+                    
+                  </li>
+
+                    <li class="sub-menu">
+                      <a href="javascript:;" class="">
+                          <i class="icon_documents_alt"></i>
+                          <span>Point de collecte</span>
+                          <span class="menu-arrow arrow_carrot-right"></span>
+                         
+                      </a>
+                      <ul class="sub">
+                          <li><a class="" href="pt_collecte.php">Gestion point collecte</a></li>                          
+                          
+                         
+                      </ul>
+                     
+                  </li>
+
+                    <li class="sub-menu">
+                      <a href="javascript:;" class="">
+                          <i class="icon_table"></i>
+                          <span>Annonces</span>
+                          <span class="menu-arrow arrow_carrot-right"></span>
+                          
+                      </a>
+                      <ul class="sub">
+                          <li><a class="" href="annonces.php">Gestion annonces</a></li>
+                      </ul>
+                    
+                  </li>
+                  <li class="sub-menu">                     
+                      <a href="javascript:;" class="">
+                          <i class="icon_piechart"></i>
+                          <span>Statistiques</span>
+                          <span class="menu-arrow arrow_carrot-right"></span>
+                      </a>
+                      <ul class="sub">
+                          <li><a class="" href="stats_utilisateur.php">Utilisateurs</a></li>                          
+                          <!--<li><a class="" href="chart-chartjs.php">Annonces</a></li>-->
+                          <!--<li><a class="" href="chart-chartjs.php">Récupération</a></li>        -->                  
+                          <li><a class="" href="stats_geo.php">Stat géo</a></li>
+                          <li><a class="" href="stats_biv.php">Comparaison variables</a></li>                        
+                      </ul>                                         
+                  </li>  
+              </ul>
+              <!-- sidebar menu end-->
+          </div>
+      </aside>
+      <!--sidebar end-->

@@ -1,0 +1,10 @@
+DateTime==4.1.1
+Django==1.10.4
+django-autofixture==0.12.1
+django-dotenv==1.4.1
+django-jet==1.0.4
+djangorestframework==3.5.3
+Pillow==3.4.2
+psycopg2==2.6.1
+pytz==2016.10
+zope.interface==4.3.2

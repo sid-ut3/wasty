@@ -1,0 +1,13 @@
+{"Users": [{
+		"first_name": "a",
+		"last_name": "a",
+		"email": "a",
+		"password": "aaa",
+		"date_joined": "1111-11-11",
+		"phone_number": "00",
+		"gender": "female",
+		"is_superuser": "False",
+		"is_staff": "False",
+		"social_professional_category": "agriculteur",
+		"user_permission": "3"
+}]}
